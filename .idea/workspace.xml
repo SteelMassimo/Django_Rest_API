@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc430af6-755f-4590-b231-a60b54c85f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,5 +65,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1333" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588101494153" />
+    <state x="-1085" y="418" key="Github.ShareDialog" timestamp="1588102447288">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1085" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588102447288" />
   </component>
 </project>
