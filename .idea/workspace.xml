@@ -26,19 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc430af6-755f-4590-b231-a60b54c85f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/box_meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/vagrant_cwd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vagrant/rgloader/loader.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588102980171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added vagrant configs">
+      <created>1588106992552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588106992552</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,13 +121,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add" />
+    <MESSAGE value="Added vagrant configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added vagrant configs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588102979470">
+    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588106991859">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588102979470" />
+    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588106991859" />
     <state x="-1085" y="418" key="Github.ShareDialog" timestamp="1588102447288">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
