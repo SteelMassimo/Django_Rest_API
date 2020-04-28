@@ -26,12 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc430af6-755f-4590-b231-a60b54c85f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles_project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles_project/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588108700738</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="setup django project">
+      <created>1588109555339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588109555339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,13 +143,14 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add" />
     <MESSAGE value="Added vagrant configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added vagrant configs" />
+    <MESSAGE value="setup django project" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup django project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588108700061">
+    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588109554714">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588108700061" />
+    <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588109554714" />
     <state x="-1085" y="418" key="Github.ShareDialog" timestamp="1588102447288">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
