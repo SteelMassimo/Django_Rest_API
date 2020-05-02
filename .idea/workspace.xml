@@ -27,7 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc430af6-755f-4590-b231-a60b54c85f58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588352217276</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added serializers">
+      <created>1588355618015</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588355618015</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,10 +218,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1201" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588113958158" />
-    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588352216549">
+    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588355617308">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588352216549" />
+    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588355617308" />
     <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588111395261" />
     <state x="-1429" y="40" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588216974617" />
     <state x="-1085" y="418" key="Github.ShareDialog" timestamp="1588102447288">
