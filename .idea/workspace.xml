@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588567809830</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Configured for deployment">
+      <created>1588568251620</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1588568251620</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,17 +278,18 @@
     <MESSAGE value="Added permission and authentication files" />
     <MESSAGE value="Added search filters" />
     <MESSAGE value="Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished" />
+    <MESSAGE value="Configured for deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configured for deployment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1201" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588113958158">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1201" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588113958158" />
-    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588567809122">
+    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588568250730">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588567809122" />
+    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588568250730" />
     <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588111395261" />
     <state x="-1429" y="40" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588216974617" />
     <state x="4580" y="275" key="FileChooserDialogImpl" timestamp="1588550893665">
@@ -292,10 +300,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1085" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588102447288" />
-    <state x="4392" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588567657608">
+    <state x="4392" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588568256763">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4392" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588567657608" />
+    <state x="4392" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588568256763" />
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588103241009" />
     <state x="-1151" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588103074911">
       <screen x="-1920" y="0" width="1920" height="1040" />
