@@ -26,9 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc430af6-755f-4590-b231-a60b54c85f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/profiles_api/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profiles_api/migrations/0002_profilefeeditem_routesuggestion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +63,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_GMaps" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -190,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588548850975</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added permission and authentication files">
+      <created>1588550365441</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1588550365441</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added search filters">
+      <created>1588550649407</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1588550649407</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,19 +247,25 @@
     <MESSAGE value="Added serializers" />
     <MESSAGE value="Added Viewsets" />
     <MESSAGE value="Added further viewsets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added further viewsets" />
+    <MESSAGE value="Added permission and authentication files" />
+    <MESSAGE value="Added search filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added search filters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1201" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588113958158">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1201" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588113958158" />
-    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588548850220">
+    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588550648613">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588548850220" />
+    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588550648613" />
     <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588111395261" />
     <state x="-1429" y="40" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588216974617" />
+    <state x="4580" y="275" key="FileChooserDialogImpl" timestamp="1588550893665">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4580" y="275" key="FileChooserDialogImpl/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588550893665" />
     <state x="-1085" y="418" key="Github.ShareDialog" timestamp="1588102447288">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

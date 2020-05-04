@@ -13,7 +13,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
         fields = ('id', 'email', 'name', 'password')
         extra_kwargs = {
             'password': {
-                'write_only':True,
+                'write_only': True,
                 'style': {'input_type': 'password'}
             }
         }
@@ -35,3 +35,21 @@ class UserProfileSerializer(serializers.ModelSerializer):
             instance.set_password(password)
 
         return super().update(instance, validated_data)
+
+
+class ProfileFeedItemSerializer(serializers.ModelSerializer):
+    """Serializer profile feed items"""
+
+    class Meta:
+        model = models.ProfileFeedItem
+        fields = ('id', 'user_profile', 'status_text', 'created_on')
+        extra_kwargs = {'user_profile': {'read_only': True}}
+
+
+class RouteSuggestionItemSerializer(serializers.ModelSerializer):
+    """Serializer profile feed items"""
+
+    class Meta:
+        model = models.RouteSuggestion
+        fields = ('id', 'user_profile', 'status_text', 'origin', 'destination', 'price', 'line_name')
+        extra_kwargs = {}
