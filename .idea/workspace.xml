@@ -19,15 +19,18 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc430af6-755f-4590-b231-a60b54c85f58" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_GMaps" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,6 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588092500696</updated>
+      <workItem from="1590149252402" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1588101494728</created>
@@ -237,8 +242,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588568251620</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added hosts">
+      <created>1588570331976</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1588570331976</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -251,7 +266,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -279,17 +294,18 @@
     <MESSAGE value="Added search filters" />
     <MESSAGE value="Finished" />
     <MESSAGE value="Configured for deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configured for deployment" />
+    <MESSAGE value="Added hosts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added hosts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1201" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588113958158">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1201" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588113958158" />
-    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588568250730">
+    <state x="4331" y="40" width="1382" height="974" key="CommitChangelistDialog2" timestamp="1588570331194">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588568250730" />
+    <state x="4331" y="40" key="CommitChangelistDialog2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588570331194" />
     <state x="-1429" y="40" width="1382" height="974" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588111395261" />
     <state x="-1429" y="40" key="CommitChangelistDialog2/1920.0.1920.1040/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588216974617" />
     <state x="4580" y="275" key="FileChooserDialogImpl" timestamp="1588550893665">
@@ -300,10 +316,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1085" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588102447288" />
-    <state x="4392" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588568256763">
+    <state x="4392" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588570340715">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4392" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588568256763" />
+    <state x="4392" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/3840.0.1920.1040/5760.0.1920.1040/0.0.2560.1400@3840.0.1920.1040" timestamp="1588570340715" />
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1588103241009" />
     <state x="-1151" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588103074911">
       <screen x="-1920" y="0" width="1920" height="1040" />
